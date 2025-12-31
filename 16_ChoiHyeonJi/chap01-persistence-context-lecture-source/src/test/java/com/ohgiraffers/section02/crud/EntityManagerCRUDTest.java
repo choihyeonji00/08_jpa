@@ -36,11 +36,10 @@ class EntityManagerCRUDTest {
     assertEquals(expected,foundMenu.getMenuCode());
     System.out.println(foundMenu);
 
-            /* 확인해야되는 내용
+          /* 확인해야되는 내용
           1. 실제 SQL 쿼리 생성
           - JPA가 자동으로 생성한 SELECT 쿼리 확인
           - 콘솔에서 SELECT * FROM tbl_menu WHERE menu_code = ? 형태의 쿼리 출력
-          *
 
           2. 엔티티-테이블 매핑
           - @Entity, @Table, @Column 어노테이션이 올바르게 동작하는지

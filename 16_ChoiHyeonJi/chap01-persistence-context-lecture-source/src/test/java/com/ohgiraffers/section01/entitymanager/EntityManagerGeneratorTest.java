@@ -43,7 +43,6 @@ class EntityManagerGeneratorTest {
     // EntityManager는 JVM 외부에 메모리가 할당되기 때문에
     // 사용 후 반드시 close() (메모리 반환)
     entityManager.close();
-
   }
 
   @Test
