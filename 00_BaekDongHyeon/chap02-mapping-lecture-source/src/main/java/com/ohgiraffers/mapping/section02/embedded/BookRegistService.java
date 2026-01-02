@@ -1,5 +1,8 @@
 package com.ohgiraffers.mapping.section02.embedded;
 
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
 @Service
 public class BookRegistService {
 
