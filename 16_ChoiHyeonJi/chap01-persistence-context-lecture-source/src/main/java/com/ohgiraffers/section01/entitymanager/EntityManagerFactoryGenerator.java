@@ -4,6 +4,7 @@ import jakarta.persistence.EntityManagerFactory;
 import jakarta.persistence.Persistence;
 
 public class EntityManagerFactoryGenerator {
+
   private static EntityManagerFactory factory
       = Persistence.createEntityManagerFactory("jpatest"); // 공장에 이름을 부여
   // 생성자를 private으로 작성
